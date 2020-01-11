@@ -1,0 +1,12 @@
+.randomRow{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+.randomRow p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}

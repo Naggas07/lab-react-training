@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import IdCard from "./components/IdCard";
 import Greetings from './components/Greetings'
 import BoxColor from './components/BoxColor'
+import Random from './components/Random'
 
 
 class App extends Component {
@@ -36,6 +37,10 @@ class App extends Component {
 
         <BoxColor r={255} g={0} b={0} />
         <BoxColor r={128} g={255} b={0} />
+
+        <h1>Random</h1>
+        <Random min={1} max={6}/>
+        <Random min={1} max={100}/>
       </div>
     );
   }
