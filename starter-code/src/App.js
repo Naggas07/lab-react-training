@@ -4,6 +4,7 @@ import Greetings from "./components/Greetings";
 import BoxColor from "./components/BoxColor";
 import Random from "./components/Random";
 import CreditCard from "./components/CreditCard";
+import Rating from "./components/Rating";
 
 class App extends Component {
   render() {
@@ -74,6 +75,16 @@ class App extends Component {
             bgColor="#ddbb55"
             color="white"
           />
+        </div>
+
+        <h1>Rating</h1>
+        <div className="ratingContainer">
+          <Rating>0</Rating>
+          <Rating>1.49</Rating>
+          <Rating>1.5</Rating>
+          <Rating>3</Rating>
+          <Rating>4</Rating>
+          <Rating>5</Rating>
         </div>
       </div>
     );
