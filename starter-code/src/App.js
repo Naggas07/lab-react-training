@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import IdCard from "./components/IdCard";
 import Greetings from './components/Greetings'
+import BoxColor from './components/BoxColor'
 
 
 class App extends Component {
@@ -27,9 +28,14 @@ class App extends Component {
         />
 
         <h1>Greetings</h1>
-        {/* TODO: Use the Greetings component */}
+       
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
+
+        <h1>Box Color</h1>
+
+        <BoxColor r={255} g={0} b={0} />
+        <BoxColor r={128} g={255} b={0} />
       </div>
     );
   }

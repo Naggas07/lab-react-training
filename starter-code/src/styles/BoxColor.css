@@ -1,0 +1,15 @@
+.colorRectangle {
+    width: 90%;
+    margin: auto;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.colorRectangle p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+}
