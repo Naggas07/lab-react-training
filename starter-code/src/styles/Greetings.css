@@ -1,0 +1,10 @@
+.helloLanguage{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
