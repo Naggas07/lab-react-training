@@ -1,0 +1,26 @@
+.card{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid black;
+    margin-top: 15px;
+}
+
+.imgCard{
+    width: 200px;
+}
+
+img{
+    width: 90%;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.InfoCard {}
+
+.InfoCard p span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
