@@ -1,0 +1,42 @@
+.cardContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.creditCard{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 196px;
+}
+
+.cardLogo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardLogo img{
+    margin-left: 78%;
+    width: 60px;
+
+}
+
+.creditNumber{
+    width: 90%;
+    margin: auto;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cardItems{
+    width: 90%;
+    margin: auto;
+    font-size: 0.9rem;
+}
